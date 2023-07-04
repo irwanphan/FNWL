@@ -2,6 +2,7 @@ class ApodImage {
     constructor(container) {
         this.container = container;
         this.image = document.createElement('img');
+        this.container.innerHTML = '';
         this.container.appendChild(this.image);
     }
   

@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Fetch the initial APOD image
     fetchApodImage();
-    
+
     // function to fetch NEOs
     fetchNEOs();
 });
