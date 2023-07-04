@@ -57,6 +57,10 @@ small.subtitle {
   height: auto;
 }
 
+.card:first-of-type {
+  margin-top: 2rem;
+}
+
 .card {
   background-color: #f5f5f5;
   border-radius: 0.5rem;
