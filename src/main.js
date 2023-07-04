@@ -36,7 +36,6 @@ const fetchApodImage = () => {
 
 // Function to fetch NEOs from NASA API
 const fetchNEOs = () => {
-    const apiKey = 'YOUR_API_KEY'; // Replace with your actual API key
     const apiUrl = `https://api.nasa.gov/neo/rest/v1/feed?api_key=${apiKey}`;
   
     axios
